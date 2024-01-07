@@ -4,7 +4,6 @@
 
 아래 순서대로 명령어를 입력하여 진행한다.
 
-
     cd libtest
     gcc -c src/libtest.c -I./include
     gcc -shared -o libtest.so libtest.o
